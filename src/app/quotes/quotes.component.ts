@@ -9,14 +9,14 @@ export class QuotesComponent implements OnInit {
 
   quote: Quotes[]=[
     new Quotes(
-      'happines',
+      'happiness',
       'Mahatma ghandhi',
       'happiness , is when waht you think ,what you say and what you think are in harmony:.',
       'it tells more of the happy life',
       new Date(2000,3,10)
     ),
     new Quotes(
-      'war',
+      'joy',
       'Thich Nhat Hanh',
       'The present moment is filled with joy and happiness.Action may not always bring happiness, but there is no happiness without action. If you are attentive, you will see it.',
       'tells of the strugles we go through',
