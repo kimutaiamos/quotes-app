@@ -1,0 +1,13 @@
+<div class="container-fluid">
+    <h2 class="text-center">Create a new quote</h2>
+    <hr>
+    <form  (ngsubmit)='submitQuotes() ' #quoteForm='ngForm'>
+        <div class="form-group">
+            <label for="genre">enter the quote genre</label>
+            <input type="text" required class="form-control" id="genre" [(ng model)]="newquotes.genre" name="genre" #genre = 'ngModel'required>
+            <div  [hidden]="genre.valid  || genre.pristine" class="alert alert-danger">
+                <p>genre is required</p>
+            </div>
+        </div>
+    </form>
+</div>
