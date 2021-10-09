@@ -9,5 +9,23 @@
                 <p>genre is required</p>
             </div>
         </div>
+        <div class="form-group">
+            <label for="details">input the quote</label>
+            <textarea class="form-control" id="body" rows="4" [(ngModel)]="newquotes.body" 
+            name="body" #body = 'ngModel' required></textarea>
+            <div [hidden]=" body.valid || body.pristine" class="alert alert-danger">
+                <p>quote is required</p>
+            </div>
+        </div>
+        <div class="form-group">
+  
+            <label for="author">who is the author</label>
+            <input type="text" class="form-control" id="author" [(ngModel)]="newquotes.author" 
+            name="author" #author = 'ngModel' required >
+            <div [hidden]=" author.valid || author.pristine" class="alert alert-danger" >
+                <p>author is required</p>
+            </div>
+
+        </div>
     </form>
 </div>
