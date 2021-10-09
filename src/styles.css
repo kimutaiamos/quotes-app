@@ -2,11 +2,4 @@
 h1{
     text-align: center;
 }
-header{
-    background-image: url(/src/assets/download\ \(1\).jpeg);
-        background-size:cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 55vh;
-    
-    }
+
