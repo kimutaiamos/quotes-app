@@ -1,5 +1,8 @@
 import { Component, OnInit,Output,Input,EventEmitter } from '@angular/core';
 import { Quotes } from '../quotes';
+import { faTrash } from '@fortawesome/angular-fontawesome';
+import { faThumbsDown } from'@fortawesome/angular-fontawesome';
+import { faThumbsUp } from'@fortawesome/angular-fontawesome';
 
 @Component({
   selector: 'app-quotes-details',
@@ -7,6 +10,9 @@ import { Quotes } from '../quotes';
   styleUrls: ['./quotes-details.component.css']
 })
 export class QuotesDetailsComponent implements OnInit {
+  faCoffee = faTrash;
+  faThumbsDown=faThumbsDown
+  faThumbsUp = faThumbsUp;
 
   @Input() quote!:Quotes;
   @Output() remove = new EventEmitter<boolean>();
@@ -26,3 +32,4 @@ export class QuotesDetailsComponent implements OnInit {
   }
 
 }
+
