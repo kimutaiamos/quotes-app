@@ -9,10 +9,10 @@ Requirements:
         <li>Git</li>
         <li>Github</li>
         <li>Web browser</li>
-        <li>A text editor</li>
-        <li>Angular</li>
+        <li>visual studio code</li>
+        <li>Angular js</li>
     </ul>
-Fork or clone the repository using the below provided link</br>
+ clone the repository using the below provided link</br>
 https://github.com/kimutaiamos/quotes-app.git-</br>
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 ## Technologies Used
