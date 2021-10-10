@@ -36,4 +36,4 @@ our website is build with little knowledge in the three language,it is however,o
 you can also refer here https://stackoverflow.com/questions/8503559/what-is-linting to learn more and run tests.
 software methods and tools refer herehttp://www.methodsandtools.com/archive/archive.php?id=33.
 ## Live link
-Here's the link to the project's [https://github.com/kimutaiamos/quotes-app.git]
+Here's the link to the project's [https://kimutaiamos.github.io/quotes-app]
