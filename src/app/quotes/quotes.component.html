@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-sm">
-        <h1 class="text-danger">Quotes of the week</h1>
+        <h1 class="text-danger text-color-red">Quotes of the week</h1>
     <hr>
 <div class="row">
     <div *ngFor='let quotes of quote;let i = index' class="col-sm-4 border success mt-3 " >
@@ -13,7 +13,6 @@
       <app-quotes-details *ngIf='quotes.showDetails'[quote]='quotes' (remove) = 'completeGoal($event,i)'></app-quotes-details>
     </div>
 </div>
-
     </div>
     <div class="col-sm">
         <app-quotes-form (addquote)="addNewQuote($event)"></app-quotes-form>

@@ -5,10 +5,10 @@
     <form  (ngSubmit)='submitQuotes()' #quoteForm='ngForm'>
         <div class="form-group">
   
-            <label for="genre">enter the quote genre</label>
+            <label for="genre">Enter the quote genre</label>
             <input type="text" required class="form-control" id="genre" [(ngModel)]="newquotes.genre" name="genre" #genre = 'ngModel'required>
             <div [hidden]="genre.valid || genre.pristine" class="alert alert-danger">
-                <p>genre is required</p>
+                <p>Genre is required</p>
               </div>
     
         </div>
@@ -17,15 +17,15 @@
             <label for="details">input the quote</label>
             <textarea class="form-control" id="body" rows="4" [(ngModel)]="newquotes.body" name="body" #body = 'ngModel' required></textarea>
             <div [hidden]=" body.valid || body.pristine" class="alert alert-danger">
-                <p>quote is required</p>
+                <p>Quote is required</p>
             </div>
         </div>
         <div class="form-group">
   
-            <label for="author">who is the author</label>
+            <label for="author">Who is the author</label>
             <input type="text" class="form-control" id="author" [(ngModel)]="newquotes.author" name="author" #author = 'ngModel' required >
             <div [hidden]=" author.valid || author.pristine" class="alert alert-danger" >
-                <p>author is required</p>
+                <p>Author is required</p>
             </div>
 
         </div>
@@ -33,7 +33,7 @@
             <label for="inputdate">date quote was inputted</label><br>
             <input type='date' id="datepublished" [(ngModel)]="newquotes.datepublished" name="datepublished" #datepublished = 'ngModel' required >
             <div [hidden]=" datepublished.valid || datepublished.pristine" class="alert alert-danger" >
-                <p>author is required</p>
+                <p>Author is required</p>
             </div>
         </div>
 
