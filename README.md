@@ -1,6 +1,6 @@
 # QuotesApp
 ## About the Author
-Developed by Amos kimutai
+Developed by  sir Amos kimutai
 ## Description
 Read some quotes or pos some for other users to view? quotes App is for you. This is an app that allows users to view posted quotes, their authors and people who posted them.You can also vote for your favorite quote, or delete those you didn't like.
 ## Setup/Installation Requirements
