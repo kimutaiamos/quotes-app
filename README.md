@@ -5,13 +5,13 @@ Developed by Amos kimutai
 Read some quotes or pos some for other users to view? quotes App is for you. This is an app that allows users to view posted quotes, their authors and people who posted them.You can also vote for your favorite quote, or delete those you didn't like.
 ## Setup/Installation Requirements
 Requirements:
-    <ul>
+    <ol>
         <li>Git</li>
         <li>Github</li>
-        <li>Web browser</li>
+        <li>google chrome</li>
         <li>visual studio code</li>
         <li>Angular js</li>
-    </ul>
+    </ol>
  clone the repository using the below provided link</br>
 https://github.com/kimutaiamos/quotes-app.git-</br>
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
