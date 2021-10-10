@@ -2,7 +2,7 @@
 ## About the Author
 Developed by Amos kimutai
 ## Description
-Read some quotes or pos some for other users to view? quotes App is for yoou. This is an app that allows users to view posted quotes, their authors and people who posted them.You can also vote for your favorite quote, or delete those you didn't like.
+Read some quotes or pos some for other users to view? quotes App is for you. This is an app that allows users to view posted quotes, their authors and people who posted them.You can also vote for your favorite quote, or delete those you didn't like.
 ## Setup/Installation Requirements
 Requirements:
     <ul>
@@ -29,10 +29,7 @@ Here's the link to the project's [https://github.com/kimutaiamos/quotes-app.git]
 ### Bugs
 No bugs have been identified in the project.
 ### Contact information
-cell:  +254705378641
-Mail: lankipkoecharo@gmail.com
+cell:  +254743880558
+Mail: kimutaiamos82@gmail.com
 ### License
 [License](./license)
-### The App screenshots
-![Screenshot one](./src/assets/one.png)
-![Screenshot two](./src/assets/one2.png)

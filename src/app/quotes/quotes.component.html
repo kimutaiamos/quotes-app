@@ -8,7 +8,7 @@
       <p>{{quotes.body}}</p>
       <p><i>-author: {{quotes.author}} posted on {{quotes.datepublished | date}}</i></p>
   
-      <button type="button" class="btn btn-primary" (click)='toggle(i)'>see more</button>
+      <button type="button" class="btn btn-secondary" (click)='toggle(i)'>read more</button>
       
       <app-quotes-details *ngIf='quotes.showDetails'[quote]='quotes' (remove) = 'completeGoal($event,i)'></app-quotes-details>
     </div>
