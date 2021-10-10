@@ -24,8 +24,6 @@ The following languages have been used to develop the project
         <li>Bootsrap</li>
         <li>Angular framework</li>
     </ol>
-## Live link
-Here's the link to the project's [https://github.com/kimutaiamos/quotes-app.git]
 ### Bugs
 No bugs have been identified in the project.
 ### Contact information
@@ -37,3 +35,5 @@ Mail: kimutaiamos82@gmail.com
 our website is build with little knowledge in the three language,it is however,open to anyone who would wish to contribute to our project.
 you can also refer here https://stackoverflow.com/questions/8503559/what-is-linting to learn more and run tests.
 software methods and tools refer herehttp://www.methodsandtools.com/archive/archive.php?id=33.
+## Live link
+Here's the link to the project's [https://github.com/kimutaiamos/quotes-app.git]
