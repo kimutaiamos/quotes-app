@@ -1,5 +1,8 @@
 import { Component, OnInit,Output,Input,EventEmitter } from '@angular/core';
 import { Quotes } from '../quotes';
+import { faTrash } from '@fortawesome/free-solid-svg-icons';
+import { faThumbsDown } from '@fortawesome/free-solid-svg-icons';
+import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-quotes-details',
@@ -7,7 +10,10 @@ import { Quotes } from '../quotes';
   styleUrls: ['./quotes-details.component.css']
 })
 export class QuotesDetailsComponent implements OnInit {
-  
+  faCoffee = faTrash;
+  faThumbsDown=faThumbsDown;
+  faThumbsUp = faThumbsUp;
+
   @Input() quote!:Quotes;
   @Output() remove = new EventEmitter<boolean>();
   noOflike: number =0;
@@ -24,6 +30,5 @@ export class QuotesDetailsComponent implements OnInit {
   }
   ngOnInit(): void {
   }
-
 }
 
